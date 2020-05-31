@@ -21,12 +21,12 @@ With following command you will have a rabbitmq server that has admin api and am
 We have 2 basic produce and consume commands that is created with laravel's artisan console and they are defined in:
 `app/Console/Commands/Rabbit` directory.
 
-####Publish
+#### Publish
 After running a rabbitmq server, now you can publish messages to server with this command:
 
 ` php artisan rabbit:publish {queue-name} {message-body}`
 
-####Consume
+#### Consume
 And also you can consume messages and see them with following command:
 
 ` php artisan rabbit:consume {queue-name}`
