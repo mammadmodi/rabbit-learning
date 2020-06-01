@@ -9,7 +9,7 @@ Because rabbitmq uses erlang/otp you should install erlang first:
 Through this [link](https://computingforgeeks.com/how-to-install-latest-erlang-on-ubuntu-linux/) you can install erlang on your ubuntu.
 
 After you installed erlang now you can install rabbitmq with following  [link](https://computingforgeeks.com/how-to-install-latest-rabbitmq-server-on-ubuntu-linux/) link.
-You should follow only three first steps.
+You should follow only steps 2 and 3.
 
 #### 2) Run with docker
 With following command you will have a rabbitmq server that has admin api and amqp protocol with `5672` and `15672` ports.
